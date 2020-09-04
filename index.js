@@ -58,7 +58,7 @@ app.use('/', require('./routes/home'))
 // routes ======================================================================
 // require('./routes/auth.js'); // load our routes and pass in our app and fully configured passport
 // require('./routes/referral.js')(app); // load our routes and pass in our app and fully configured passport
-app.use(helmet())
+// app.use(helmet())
 
 
 /** END AUTH ROUTE */
